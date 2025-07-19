@@ -27,7 +27,7 @@ def plot_crop_probabilities(input_features):
     st.pyplot(fig)
 
 
-crop = pd.read_csv("C:\\Users\\ASUS\\OneDrive\\Desktop\\Crop_recommdation\\Crop_Recommendation.csv")
+crop = pd.read_csv("Crop_Recommendation.csv")
 
 crop_dict = {
     'Rice': 1, 'Maize': 2, 'ChickPea': 3, 'KidneyBeans': 4, 'PigeonPeas': 5,
